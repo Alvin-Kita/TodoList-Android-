@@ -19,7 +19,7 @@ public class AddTodoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_todo);
 
         // Initialisation du spinner
-        Spinner spinner = findViewById(R.id.spinner);
+        Spinner spinner = findViewById(R.id.add_todo_spinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.add_todo_spinner, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
